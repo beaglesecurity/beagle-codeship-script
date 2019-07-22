@@ -5,7 +5,7 @@ This plugin can be used to trigger beagle penetration testing from Codeship
 
 ### Prerequisites
 
-* Obtain Application Token and User Token from Beagle Dashboard
+* Obtain Application Token and Access Token from Beagle Dashboard
 * Add the Environment variables "ACCESS_TOKEN" and "APPLICATION_TOKEN" to Codeship.
 
 
