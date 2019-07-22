@@ -5,11 +5,11 @@ This plugin can be used to trigger beagle penetration testing from Codeship
 
 ### Prerequisites
 
-* Obtain Application Token and User Token from Beagle Dashboard
-* Add the Environment variables "USER_TOKEN" and "APPLICATION_TOKEN" to Codeship.
+* Obtain Application Token and Access Token from Beagle Dashboard
+* Add the Environment variables "ACCESS_TOKEN" and "APPLICATION_TOKEN" to Codeship.
 
 
-### Generate your User Token From Beagle User Settings:
+### Generate your Access Token From Beagle User Settings:
   Settings -> Access token -> Generate your new personal access token
 
 ![Generate user token](https://beagle-assets.s3.ca-central-1.amazonaws.com/share/usertoken.png)
@@ -42,8 +42,8 @@ In-order to trigger beagle penetration testing you need to create two environmen
 5. Navigate to Environment
 	![Environment](/images/env2.png)
 6. Add tokens, make sure you use environment variable names as follows:
-	* For user token -> user_token
-	* For application token -> application_token
+	* For Access Token -> ACCESS_TOKEN
+	* For Application Token -> APPLICATION_TOKEN
 	* Final View 
 	![Step 3](/images/env3.png)
 	* Save Configuration
